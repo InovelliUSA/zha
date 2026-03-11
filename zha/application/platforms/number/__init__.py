@@ -838,7 +838,7 @@ class InovelliQuickStartTime(NumberConfigurationEntity):
 
     _cluster_handler_match = ClusterHandlerMatch(
         cluster_handlers=frozenset({CLUSTER_HANDLER_INOVELLI}),
-        models=frozenset({"VZM35-SN"}),
+        models=frozenset({"VZM31-SN", "VZM32-SN", "VZM35-SN"}),
     )
 
 
